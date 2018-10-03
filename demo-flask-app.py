@@ -1,6 +1,5 @@
 # Import the flask module.
 from flask import Flask
-from flask import render_template
 
 
 # Don't worry about this line. It just initializing the app
