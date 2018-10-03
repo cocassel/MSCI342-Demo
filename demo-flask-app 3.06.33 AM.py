@@ -1,13 +1,9 @@
-from flask import Flask, jsonify, url_for, request, redirect
-from flask_cors import CORS
-from collections import OrderedDict
-from flask import request
-import psycopg2
-from threading import Thread, Lock
+# Import the flask module.
+from flask import Flask
 
 
-app= Flask(__name__)
-CORS(app)
+# Don't worry about this line. It just initializing the app
+app = Flask(__name__)
 
 
 # This is a route in Flask. Also called an endpoint. It is identical to what Smucker taught is in class. Your "rest API"
@@ -29,4 +25,3 @@ def testing():
 def html_demo():
     return "<html><head><title>Demo</title></head><body>This is our demo HTML file! This is " \
                   "just regular HTML - nothing fancy!</body></html>"
-
