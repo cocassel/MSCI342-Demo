@@ -26,10 +26,3 @@ def testing():
 def html_demo():
     return "<html><head><title>Demo</title></head><body>This is our demo HTML file! This is " \
                   "just regular HTML - nothing fancy!</body></html>"
-
-
-# Usually when you deploy you would take this below two lines out, but for now this just allows your app to run when
-# you run the python file. All you need to do to start your web app is simply run this file from PyCharm
-# (my personal favourite) or from the command line
-if __name__ == '__main__':
-    app.run()
